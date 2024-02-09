@@ -1,26 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-```jsx
-<div>
-  <p>Amount: </p>
-  <p>Status: Paid or Pending</p>
-  <p>Description: </p>
-  <p>Card Number: </p>
-  <p>Card Type: </p>
-  <p>Card Holder Name: </p>
-  <p>Payment Date: </p>
-</div>
-```
-
-```json
 [
   {
     "id": "1",
@@ -29,7 +6,8 @@ Currently, two official plugins are available:
     "cardOwner": "John Doe",
     "date": "2024-01-01",
     "amount": 100,
-    "description": "Payment for groceries"
+    "description": "Payment for groceries",
+    "isPaid": true
   },
   {
     "id": "2",
@@ -38,7 +16,8 @@ Currently, two official plugins are available:
     "cardOwner": "Alice Smith",
     "date": "2024-01-05",
     "amount": 50,
-    "description": "Payment for utilities"
+    "description": "Payment for utilities",
+    "isPaid": true
   },
   {
     "id": "3",
@@ -47,7 +26,8 @@ Currently, two official plugins are available:
     "cardOwner": "Bob Johnson",
     "date": "2024-01-10",
     "amount": 200,
-    "description": "Payment for rent"
+    "description": "Payment for rent",
+    "isPaid": false
   },
   {
     "id": "4",
@@ -56,7 +36,8 @@ Currently, two official plugins are available:
     "cardOwner": "Emily Brown",
     "date": "2024-01-15",
     "amount": 75,
-    "description": "Payment for internet"
+    "description": "Payment for internet",
+    "isPaid": true
   },
   {
     "id": "5",
@@ -65,7 +46,8 @@ Currently, two official plugins are available:
     "cardOwner": "David Wilson",
     "date": "2024-01-20",
     "amount": 120,
-    "description": "Payment for dining out"
+    "description": "Payment for dining out",
+    "isPaid": false
   },
   {
     "id": "6",
@@ -74,7 +56,7 @@ Currently, two official plugins are available:
     "cardOwner": "Emma Taylor",
     "date": "2024-01-25",
     "amount": 90,
-    "description": "Payment for entertainment"
+    "description": "Payment for entertainment",
+    "isPaid": true
   }
 ]
-```
