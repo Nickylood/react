@@ -1,0 +1,18 @@
+.container {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+.isPaid {
+  border-color: green;
+}
+
+.isPeding {
+  border-color: orangered;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    color: orange;
+}
